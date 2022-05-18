@@ -3985,7 +3985,8 @@ body.is-mobile #main > header {
 /* Footer */
 
 #footer {
-  padding: 6em 0 4em 0;
+  /* padding: 6em 0 4em 0; */
+  padding: 3em 2em 1em 2em;
   background-color: #1d242a;
   text-align: center;
 }

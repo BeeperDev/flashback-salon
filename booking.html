@@ -55,89 +55,80 @@
 
       <!-- Footer -->
       <footer id="footer">
-        <section class="rapper">
-          <div class="inner">
-            <h2>Contact</h2>
-            <p>
-              Ready to come see me?! I'd love to have you! <br />
-              Fill out the form below to ask me anything and I will contact you
-              to book an appointment!
-            </p>
+        <!-- <section class="rapper"> -->
+        <!-- <div class="inner"> -->
+        <h2>Contact</h2>
+        <p>
+          Ready to come see me?! I'd love to have you! <br />
+          Fill out the form below to ask me anything and I will contact you to
+          book an appointment!
+        </p>
 
-            <form
-              method="post"
-              action="POST"
-              name="booking"
-              data-netlify="true"
-            >
-              <div class="row gtr-uniform">
-                <div class="col-6 col-12-xsmall">
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    value=""
-                    placeholder="Name"
-                  />
-                </div>
-                <div class="col-6 col-12-xsmall">
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    value=""
-                    placeholder="Email"
-                  />
-                </div>
-                <div class="col-6 col-12-xsmall">
-                  <input
-                    type="text"
-                    name="phone"
-                    id="phone"
-                    value=""
-                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                    required
-                    placeholder="Phone Number"
-                  />
-                </div>
-                <div class="col-6 col-12-xsmall">
-                  <select name="category" id="category">
-                    <option value="">- Category -</option>
-                    <option value="New client consultation">
-                      New Client Consultation
-                    </option>
-                    <option value="Existing Client Appointment Request">
-                      Existing Client Appointment Request
-                    </option>
-                    <option value="General Question">General Question</option>
-                    <option value="Other">Other</option>
-                  </select>
-                </div>
+        <form method="post" action="POST" name="booking" data-netlify="true">
+          <div class="row gtr-uniform">
+            <div class="col-6 col-12-xsmall">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                value=""
+                placeholder="Name"
+              />
+            </div>
+            <div class="col-6 col-12-xsmall">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                value=""
+                placeholder="Email"
+              />
+            </div>
+            <div class="col-6 col-12-xsmall">
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                value=""
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required
+                placeholder="Phone Number"
+              />
+            </div>
+            <div class="col-6 col-12-xsmall">
+              <select name="category" id="category">
+                <option value="">- Category -</option>
+                <option value="New client consultation">
+                  New Client Consultation
+                </option>
+                <option value="Existing Client Appointment Request">
+                  Existing Client Appointment Request
+                </option>
+                <option value="General Question">General Question</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
 
-                <div class="col-12">
-                  <textarea
-                    name="demo-message"
-                    id="demo-message"
-                    placeholder="Enter your message"
-                    rows="6"
-                  ></textarea>
-                </div>
-                <div class="col-12">
-                  <ul class="actions">
-                    <li>
-                      <input
-                        type="submit"
-                        value="Send Message"
-                        class="primary"
-                      />
-                    </li>
-                    <li><input type="reset" value="Reset" /></li>
-                  </ul>
-                </div>
-              </div>
-            </form>
+            <div class="col-12">
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Enter your message"
+                rows="6"
+              ></textarea>
+            </div>
+            <div class="col-12">
+              <ul class="actions">
+                <li>
+                  <input type="submit" value="Send Message" class="primary" />
+                </li>
+                <li><input type="reset" value="Reset" /></li>
+              </ul>
+            </div>
           </div>
-        </section>
+        </form>
+        <!-- </div> -->
+        <!-- </section> -->
 
         <ul class="icons">
           <li>
