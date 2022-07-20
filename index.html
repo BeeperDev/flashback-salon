@@ -34,10 +34,8 @@
               <div id="menu">
                 <ul>
                   <li><a href="index.html">Home</a></li>
-                  <li><a href="generic.html">Services</a></li>
-                  <li><a href="elements.html">Elements</a></li>
-                  <li><a href="#">Sign Up</a></li>
-                  <li><a href="#">Log In</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="#footer">Book Now</a></li>
                 </ul>
               </div>
             </li>
@@ -51,7 +49,7 @@
           <h2>FLASHBACK SALON</h2>
           <p>
             Customized hairstyles<br />
-            in Hedgesville, West Virginia<br />
+            in Hedgesville, West Virginia.<br />
             crafted by <a href="http://html5up.net">Jessica</a>.
           </p>
           <ul class="actions special">
@@ -81,21 +79,25 @@
         </div>
       </section>
 
-      <!---------------------------------------------------------------- About Me -->
-      <section id="about-me" class="wrapper alt style2">
-        <section class="spotlight">
-          <div class="image"><img src="images/pic01.jpg" alt="" /></div>
-          <div class="content">
-            <h2>
-              Magna primis lobortis<br />
-              sed ullamcorper
-            </h2>
+      <!---------------------------------------------------------------- CTA -->
+      <section id="cta" class="wrapper style4">
+        <div class="inner">
+          <header>
+            <h2>Have questions? Contact me!</h2>
             <p>
-              Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-              imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+              Aliquam ut ex ut augue consectetur interdum endrerit imperdiet
+              amet eleifend fringilla.
             </p>
-          </div>
-        </section>
+          </header>
+          <ul class="actions stacked">
+            <li>
+              <a href="#footer" class="button fit primary"
+                >Make an appointment</a
+              >
+            </li>
+            <li><a href="#about-me" class="button fit">About me</a></li>
+          </ul>
+        </div>
       </section>
 
       <!---------------------------------------------------------------- Top Services -->
@@ -104,10 +106,9 @@
           <header class="major">
             <h2>Top Services</h2>
             <p>
-              Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-              eleifend<br />
-              fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-              ullamcorper.
+              From just a trim to a complete color, highlight, cut, and style
+              transformation...<br />
+              I'm here to help you customize your unique look!
             </p>
           </header>
           <ul class="features">
@@ -146,29 +147,106 @@
               </p>
             </li>
           </ul>
-          <a href="generic.html" class="button primary">All Services</a>
+          <a href="services.html" class="button primary">All Services</a>
         </div>
       </section>
 
-      <!---------------------------------------------------------------- CTA -->
-      <section id="cta" class="wrapper style4">
-        <div class="inner">
-          <header>
-            <h2>Arcue ut vel commodo</h2>
+      <!---------------------------------------------------------------- About Me -->
+      <section id="about-me" class="wrapper alt style2">
+        <section class="spotlight">
+          <div class="image"><img src="images/pic01.jpg" alt="" /></div>
+          <div class="content">
+            <h2>
+              Magna primis lobortis<br />
+              sed ullamcorper
+            </h2>
             <p>
-              Aliquam ut ex ut augue consectetur interdum endrerit imperdiet
-              amet eleifend fringilla.
+              Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
+              imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
             </p>
-          </header>
-          <ul class="actions stacked">
-            <li><a href="#" class="button fit primary">Activate</a></li>
-            <li><a href="#" class="button fit">Learn More</a></li>
-          </ul>
-        </div>
+          </div>
+        </section>
       </section>
 
       <!---------------------------------------------------------------- Footer -->
       <footer id="footer">
+        <section class="wrapper">
+          <div class="inner">
+            <h2>Contact</h2>
+            <p>
+              Ready to come see me?! I'd love to have you! <br />
+              Fill out the form below and I will contact you to book an
+              appointment!
+            </p>
+
+            <form method="post" action="#">
+              <div class="row gtr-uniform">
+                <div class="col-6 col-12-xsmall">
+                  <input
+                    type="text"
+                    name="demo-name"
+                    id="demo-name"
+                    value=""
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="col-6 col-12-xsmall">
+                  <input
+                    type="email"
+                    name="demo-email"
+                    id="demo-email"
+                    value=""
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="col-6 col-12-xsmall">
+                  <input
+                    type="text"
+                    name="demo-phone"
+                    id="demo-phone"
+                    value=""
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    required
+                    placeholder="Phone Number"
+                  />
+                </div>
+                <div class="col-6 col-12-xsmall">
+                  <select name="demo-category" id="demo-category">
+                    <option value="">- Category -</option>
+                    <option value="1">New Client Consultation</option>
+                    <option value="1">
+                      Existing Client Appointment Request
+                    </option>
+                    <option value="1">General Question</option>
+                    <option value="1">Other</option>
+                  </select>
+                </div>
+
+                <div class="col-12">
+                  <textarea
+                    name="demo-message"
+                    id="demo-message"
+                    placeholder="Enter your message"
+                    rows="6"
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <ul class="actions">
+                    <li>
+                      <input
+                        type="submit"
+                        value="Send Message"
+                        class="primary"
+                      />
+                    </li>
+                    <li><input type="reset" value="Reset" /></li>
+                  </ul>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+
         <ul class="icons">
           <li>
             <a href="#" class="icon brands fa-twitter"
