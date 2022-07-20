@@ -3069,7 +3069,7 @@ button:disabled,
 }
 
 .wrapper.style3 {
-  background-color: #7d9302;
+  background-color: #1b3109;
   color: #d3d4e4;
 }
 
@@ -3132,7 +3132,7 @@ button:disabled,
 
 .wrapper.style3 select option {
   color: #ffffff;
-  background: #7d9302;
+  background: #1b3109;
 }
 
 .wrapper.style3 input[type="checkbox"] + label,
@@ -3148,7 +3148,7 @@ button:disabled,
 .wrapper.style3 input[type="checkbox"]:checked + label:before,
 .wrapper.style3 input[type="radio"]:checked + label:before {
   background: #ffffff;
-  color: #7d9302;
+  color: #1b3109;
 }
 
 .wrapper.style3 ::-webkit-input-placeholder {
@@ -3978,7 +3978,7 @@ body.is-mobile #main > header {
 /* Footer */
 
 #footer {
-  /* padding: 6em 0 4em 0; */
+  padding: 6em 0 4em 0;
   background-color: #1d242a;
   text-align: center;
 }
