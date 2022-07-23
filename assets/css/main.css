@@ -2876,8 +2876,15 @@ button:disabled,
 .wrapper {
   padding: 6em 0 4em 0;
 }
+.wrapperService {
+  padding: 3em 0 1em 0;
+}
 
 .wrapper > .inner {
+  width: 60em;
+  margin: 0 auto;
+}
+.rapper > .inner {
   width: 60em;
   margin: 0 auto;
 }
@@ -3253,7 +3260,7 @@ button:disabled,
 .wrapper.style5 h4,
 .wrapper.style5 h5,
 .wrapper.style5 h6 {
-  color: #2e3842;
+  color: #eb341c;
 }
 
 .wrapper.style5 hr {
