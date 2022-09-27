@@ -1960,7 +1960,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-  box-shadow: 0 0 0 2px #21b2a6;
+  box-shadow: 0 0 0 2px #cdb093;
 }
 
 select {
@@ -2057,7 +2057,7 @@ input[type="radio"]:checked + label:before {
 
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-  box-shadow: 0 0 0 2px #21b2a6;
+  box-shadow: 0 0 0 2px #cdb093;
 }
 
 input[type="checkbox"] + label:before {
@@ -2899,8 +2899,8 @@ button:disabled,
 }
 
 .wrapper.style1 {
-  background-color: #21b2a6;
-  color: #c8ece9;
+  background-color: #cdb093;
+  color: #fff;
 }
 
 .wrapper.style1 strong,
@@ -2941,7 +2941,7 @@ button:disabled,
 }
 
 .wrapper.style1 header.major p {
-  color: #c8ece9;
+  color: #fff;
 }
 
 .wrapper.style1 label {
@@ -2962,12 +2962,12 @@ button:disabled,
 
 .wrapper.style1 select option {
   color: #ffffff;
-  background: #21b2a6;
+  background: #cdb093;
 }
 
 .wrapper.style1 input[type="checkbox"] + label,
 .wrapper.style1 input[type="radio"] + label {
-  color: #c8ece9;
+  color: #fff;
 }
 
 .wrapper.style1 input[type="checkbox"] + label:before,
@@ -2978,7 +2978,7 @@ button:disabled,
 .wrapper.style1 input[type="checkbox"]:checked + label:before,
 .wrapper.style1 input[type="radio"]:checked + label:before {
   background: #ffffff;
-  color: #21b2a6;
+  color: #cdb093;
 }
 
 .wrapper.style1 ::-webkit-input-placeholder {
@@ -3069,7 +3069,7 @@ button:disabled,
 }
 
 .wrapper.style3 {
-  background-color: #505393;
+  background-color: #7d9302;
   color: #d3d4e4;
 }
 
@@ -3132,7 +3132,7 @@ button:disabled,
 
 .wrapper.style3 select option {
   color: #ffffff;
-  background: #505393;
+  background: #7d9302;
 }
 
 .wrapper.style3 input[type="checkbox"] + label,
@@ -3148,7 +3148,7 @@ button:disabled,
 .wrapper.style3 input[type="checkbox"]:checked + label:before,
 .wrapper.style3 input[type="radio"]:checked + label:before {
   background: #ffffff;
-  color: #505393;
+  color: #7d9302;
 }
 
 .wrapper.style3 ::-webkit-input-placeholder {
@@ -3450,7 +3450,7 @@ button:disabled,
   -ms-transition: -ms-transform 0.5s ease;
   transition: transform 0.5s ease;
   -webkit-overflow-scrolling: touch;
-  background: #21b2a6;
+  background: #cdb093;
   color: #ffffff;
   height: 100%;
   max-width: 80%;
@@ -3904,21 +3904,21 @@ body.is-preload #banner:after {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/cut.jpg");
   background-image: -webkit-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/cut.jpg");
   background-image: -ms-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/cut.jpg");
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../images/banner.jpg");
+    url("../../images/cut.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -4056,21 +4056,21 @@ body.landing #page-wrapper {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/cut.jpg");
   background-image: -webkit-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/cut.jpg");
   background-image: -ms-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/cut.jpg");
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../images/banner.jpg");
+    url("../../images/cut.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -4093,21 +4093,21 @@ body.is-mobile.landing .wrapper.style4 {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/cut.jpg");
   background-image: -webkit-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/cut.jpg");
   background-image: -ms-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/banner.jpg");
+    url("../../images/cut.jpg");
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../images/banner.jpg");
+    url("../../images/cut.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
